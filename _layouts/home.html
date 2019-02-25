@@ -12,7 +12,13 @@
       {% include projects.html %}
     </div>
 
-    {% if site.topics %}
+    {% if site.topicsIKnow %}
+      <div class="my-6">
+        {% include skills.html %}
+      </div>
+    {% endif %}
+
+    {% if site.topicsIWantLearn %}
       <div class="my-6">
         {% include interests.html %}
       </div>
@@ -40,7 +46,11 @@
 
         {% include projects.html %}
 
-        {% if site.topics %}
+        {% if site.topicsIKnow %}
+          {% include skills.html %}
+        {% endif %}
+
+        {% if site.topicsIWantLearn %}
           {% include interests.html %}
         {% endif %}
 

@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -15,13 +15,32 @@ defaults:
     values:
       layout: "post"
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+topicsIKnow:
+  - name: Angular
+    web_url: https://github.com/topics/angular
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/angular/angular.png
 
-  - name: Web design
+  - name: Node
+    web_url: https://github.com/topics/node
+    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/nodejs/nodejs.png
+
+  - name: Golang
+    web_url: https://github.com/topics/golang
+    image_url: https://raw.githubusercontent.com/github/explore/424902f9441eeb28663ad3f45e25398ac3445c79/topics/go/go.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+topicsIWantLearn:
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
+
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/kotlin/kotlin.png
